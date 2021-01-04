@@ -57,9 +57,9 @@ def search_keywords():
     logger.info('Keyword taraması için dosya okunuyor...')
     with open('output.csv') as cleantweets:
         tweets = cleantweets.readlines()
-        keyword_list = ["recep", "tayyip", "erdoğan", "akp", "bakan", "albayrak", "selçuk",
+        keyword_list = ["recep", "tayyip", "erdoğan", "akp", "bakan", "albayrak",
                         "siyaset", "siyasi", "meclis", "milletvekili", "mv.",
-                        "saray", "emine"]
+                        "saray"]
 
         logger.info('Keyword içeren tweetler ayırılıyor...')
         for i in tweets:
